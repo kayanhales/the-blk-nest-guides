@@ -1,13 +1,32 @@
-/* LIGHT: warm paper + cocoa brown, red accents */
+/* ================================
+   The BLK Nest – Afrofuturistic Theme
+   Brown-dominant with red accents
+   Works with palette schemes: afro / afro-dark
+   ================================ */
+
+/* ---------- LIGHT (afro) ---------- */
 [data-md-color-scheme="afro"] {
+  /* Base */
   --md-default-bg-color: #f8f4f1;
   --md-default-fg-color: #2b1f1a;
+  --md-default-fg-color--light: #3a2b25;
+  --md-default-fg-color--lighter: #5a463e;
+  --md-default-fg-color--dark: #1f1714;
+
+  /* Brand */
   --md-primary-fg-color: #4e342e;            /* dominant brown */
   --md-primary-fg-color--light: #6d4c41;
   --md-primary-fg-color--dark: #3e2723;
-  --md-accent-fg-color: #b71c1c;             /* deep red accent */
+  --md-accent-fg-color: #b71c1c;             /* deep red */
+
+  /* Content */
+  --md-typeset-color: var(--md-default-fg-color);
   --md-typeset-a-color: var(--md-accent-fg-color);
   --md-code-bg-color: #f3ece8;
+  --md-code-fg-color: #3a2b25;
+  --md-border-color: #e5d9d2;
+
+  /* Subtle afrofuturistic background grid + red glow */
   background-image:
     radial-gradient(1200px 600px at 10% -10%, rgba(183,28,28,0.08), transparent),
     linear-gradient(0deg, transparent 96%, rgba(62,39,35,0.06) 100%),
@@ -15,27 +34,67 @@
   background-size: auto, 24px 24px, 48px 48px;
 }
 
-/* DARK: near-black cocoa + neon red highlights */
+/* ---------- DARK (afro-dark) ---------- */
 [data-md-color-scheme="afro-dark"] {
-  --md-default-bg-color: #0f0b0a;
-  --md-default-fg-color: #eadfd9;
-  --md-primary-fg-color: #3e2723;
+  color-scheme: dark;
+
+  /* Base */
+  --md-default-bg-color: #0f0b0a;            /* near-black cocoa */
+  --md-default-fg-color: #eadfd9;            /* body text */
+  --md-default-fg-color--light: #f4ece7;
+  --md-default-fg-color--lighter: #fff9f6;
+  --md-default-fg-color--dark: #cbbeb6;
+
+  /* Brand */
+  --md-primary-fg-color: #3e2723;            /* darker brown core */
   --md-primary-fg-color--light: #5d4037;
   --md-primary-fg-color--dark: #2a1a16;
   --md-accent-fg-color: #ef5350;             /* brighter red for contrast */
+
+  /* Content */
+  --md-typeset-color: var(--md-default-fg-color);
   --md-typeset-a-color: var(--md-accent-fg-color);
   --md-code-bg-color: #1a1412;
+  --md-code-fg-color: #f0e8e2;
+  --md-border-color: #2a1f1b;
+
+  /* Ambient red aura + fine grid */
   background-image:
     radial-gradient(1000px 400px at 90% -20%, rgba(239,83,80,0.12), transparent),
     radial-gradient(1px 1px at 0 0, rgba(239,83,80,0.12) 1px, transparent 1px);
   background-size: auto, 48px 48px;
 }
 
-/* Card & nav polish */
-.md-typeset .admonition, .md-typeset details { border-radius: 16px; }
-.md-nav__title, .md-header { backdrop-filter: saturate(1.2) blur(6px); }
+/* ---------- Global polish ---------- */
+.md-nav__title,
+.md-header {
+  backdrop-filter: saturate(1.2) blur(6px);
+}
 
-/* Buttons/links with slight glow */
+/* Cards / admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 16px;
+}
+
+/* Headings pop in dark mode */
+[data-md-color-scheme="afro-dark"] .md-typeset h1,
+[data-md-color-scheme="afro-dark"] .md-typeset h2,
+[data-md-color-scheme="afro-dark"] .md-typeset h3 {
+  color: #fff5ee;
+}
+
+/* Navigation and links */
+[data-md-color-scheme="afro-dark"] .md-nav__link { color: #e7dcd6; }
+[data-md-color-scheme="afro-dark"] .md-typeset a:hover { text-decoration: underline; }
+
+/* Tables and borders */
+[data-md-color-scheme="afro-dark"] table td,
+[data-md-color-scheme="afro-dark"] table th {
+  border-color: #2a1f1b;
+}
+
+/* Primary button glow */
 .md-typeset .md-button--primary {
   box-shadow: 0 0 0 rgba(0,0,0,0);
   transition: box-shadow .2s ease, transform .1s ease;
