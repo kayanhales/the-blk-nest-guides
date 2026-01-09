@@ -21,7 +21,7 @@ Start with a guide, then jump to our provider directory when you’re ready.
 
 ## Quick Start
 
-- **How to Choose a Black Doula** → [/choosing-a-black-doula](./choosing-a-black-doula.md)
+- **How to Choose a Black Doula** → [/choosing-a-doula](./choosing-a-doula.md)
 - **Postpartum & Lactation Support (Metro Detroit)** → [/postpartum-lactation-support](./postpartum-lactation-support.md)
 - **Funding & Benefits in Michigan** → [/funding-benefits-michigan](./funding-benefits-michigan.md)
 
@@ -57,7 +57,7 @@ Your feedback makes these guides better for the next caregiver—thank you for b
 
 ### Keep Exploring
 
-- [How to Choose a Black Doula](./choosing-a-black-doula.md)  
+- [How to Choose a Black Doula](./choosing-a-doula.md)  
 - [Postpartum & Lactation Support (Metro Detroit)](./postpartum-lactation-support.md)  
 - [Funding & Benefits for Black Families in Michigan](./funding-benefits-michigan.md)
 
