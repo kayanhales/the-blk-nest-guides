@@ -1,0 +1,46 @@
+/* LIGHT: warm paper + cocoa brown, red accents */
+[data-md-color-scheme="afro"] {
+  --md-default-bg-color: #f8f4f1;
+  --md-default-fg-color: #2b1f1a;
+  --md-primary-fg-color: #4e342e;            /* dominant brown */
+  --md-primary-fg-color--light: #6d4c41;
+  --md-primary-fg-color--dark: #3e2723;
+  --md-accent-fg-color: #b71c1c;             /* deep red accent */
+  --md-typeset-a-color: var(--md-accent-fg-color);
+  --md-code-bg-color: #f3ece8;
+  background-image:
+    radial-gradient(1200px 600px at 10% -10%, rgba(183,28,28,0.08), transparent),
+    linear-gradient(0deg, transparent 96%, rgba(62,39,35,0.06) 100%),
+    radial-gradient(1px 1px at 0 0, rgba(62,39,35,0.15) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 48px 48px;
+}
+
+/* DARK: near-black cocoa + neon red highlights */
+[data-md-color-scheme="afro-dark"] {
+  --md-default-bg-color: #0f0b0a;
+  --md-default-fg-color: #eadfd9;
+  --md-primary-fg-color: #3e2723;
+  --md-primary-fg-color--light: #5d4037;
+  --md-primary-fg-color--dark: #2a1a16;
+  --md-accent-fg-color: #ef5350;             /* brighter red for contrast */
+  --md-typeset-a-color: var(--md-accent-fg-color);
+  --md-code-bg-color: #1a1412;
+  background-image:
+    radial-gradient(1000px 400px at 90% -20%, rgba(239,83,80,0.12), transparent),
+    radial-gradient(1px 1px at 0 0, rgba(239,83,80,0.12) 1px, transparent 1px);
+  background-size: auto, 48px 48px;
+}
+
+/* Card & nav polish */
+.md-typeset .admonition, .md-typeset details { border-radius: 16px; }
+.md-nav__title, .md-header { backdrop-filter: saturate(1.2) blur(6px); }
+
+/* Buttons/links with slight glow */
+.md-typeset .md-button--primary {
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  transition: box-shadow .2s ease, transform .1s ease;
+}
+.md-typeset .md-button--primary:hover {
+  box-shadow: 0 0 18px rgba(239,83,80,.25);
+  transform: translateY(-1px);
+}

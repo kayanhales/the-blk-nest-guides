@@ -10,7 +10,7 @@ keywords:
 canonical: https://guides.theblknest.org/choosing-a-black-doula/
 ---
 
-# How to Choose a Black Doula in Metro Detroit
+# How to Choose a Doula in Metro Detroit
 
 Finding the right doula shouldn’t feel like a scavenger hunt. This guide gives you a simple, culturally-rooted process to locate and vet Black doulas across Metro Detroit.
 

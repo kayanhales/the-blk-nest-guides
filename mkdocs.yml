@@ -1,8 +1,10 @@
 site_name: The BLK Nest Guides
 site_url: https://guides.theblknest.org
+repo_url: https://github.com/kayanhales/the-blk-nest-guides
+edit_uri: blob/main/docs/
 plugins:
   - search
-  #- sitemap
+  - sitemap
 extra:
   social:
     - icon: fontawesome/brands/x-twitter
@@ -11,17 +13,38 @@ extra:
       link: https://github.com/kayanhales
 theme:
   name: material
+  palette:
+    - scheme: afro         # light
+      primary: custom
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark
+    - scheme: afro-dark    # dark
+      primary: custom
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.top
     - search.highlight
     - content.code.copy
+    - toc.integrate
+extra_css:
+  - styles/afro.css
+
 nav:
   - Start Here: index.md
   - Caregiver Guides:
       - How to Choose a Black Doula: choosing-a-black-doula.md
       - Postpartum & Lactation Support (Metro Detroit): postpartum-lactation-support.md
       - Funding & Benefits in Michigan: funding-benefits-michigan.md
+
 markdown_extensions:
   - admonition
   - toc:

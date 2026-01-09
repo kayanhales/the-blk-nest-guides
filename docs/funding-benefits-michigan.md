@@ -47,7 +47,7 @@ Community-submitted updates + periodic reviews keep this page fresh.
 ---
 
 ### Keep Learning
-- [How to Choose a Black Doula](./choosing-a-black-doula.md)  
+- [How to Choose a Doula](./choosing-a-doula.md)  
 - [Postpartum & Lactation Support (Metro Detroit)](./postpartum-lactation-support.md)
 
 ---
