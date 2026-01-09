@@ -60,7 +60,7 @@ It’s normal to feel overwhelmed. Seek help for persistent sadness, anxiety, pa
 ---
 
 ### Keep Learning
-- [How to Choose a Black Doula](./choosing-a-black-doula.md)  
+- [How to Choose a Black Doula](./choosing-a-doula.md)  
 - [Funding & Benefits for Black Families in Michigan](./funding-benefits-michigan.md)
 
 ---
