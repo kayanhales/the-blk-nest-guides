@@ -1,0 +1,28 @@
+site_name: The BLK Nest Guides
+site_url: https://guides.theblknest.org
+plugins:
+  - search
+  #- sitemap
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/yourhandle
+    - icon: fontawesome/brands/github
+      link: https://github.com/kayanhales
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+nav:
+  - Start Here: index.md
+  - Caregiver Guides:
+      - How to Choose a Black Doula: choosing-a-black-doula.md
+      - Postpartum & Lactation Support (Metro Detroit): postpartum-lactation-support.md
+      - Funding & Benefits in Michigan: funding-benefits-michigan.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
