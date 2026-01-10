@@ -1,5 +1,5 @@
 ---
-title: How to Choose a Black Doula in Metro Detroit
+title: How to Choose a Doula in Metro Detroit
 description: A practical guide for finding, vetting, and working with a Black doula in Metro Detroit.
 keywords:
   - black doula Detroit
@@ -81,6 +81,9 @@ Worked with a Black doula in Metro Detroit? **Add a listing or review** to help 
 - [Funding & Benefits for Black Families in Michigan](./funding-benefits-michigan.md)
 
 ---
+!!! tip "See something to update?"
+    Suggest an edit → **[Open a quick issue](https://github.com/kayanhales/the-blk-nest-guides/issues/new?title=Fix:%20&labels=content)**.
+
 
 <!-- JSON-LD -->
 <script type="application/ld+json">

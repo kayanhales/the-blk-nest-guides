@@ -62,6 +62,9 @@ Your feedback makes these guides better for the next caregiver—thank you for b
 - [Funding & Benefits for Black Families in Michigan](./funding-benefits-michigan.md)
 
 ---
+!!! tip "See something to update?"
+    Suggest an edit → **[Open a quick issue](https://github.com/kayanhales/the-blk-nest-guides/issues/new?title=Fix:%20&labels=content)**.
+
 
 <!-- JSON-LD: WebSite -->
 <script type="application/ld+json">

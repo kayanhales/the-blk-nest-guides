@@ -4,7 +4,12 @@ repo_url: https://github.com/kayanhales/the-blk-nest-guides
 edit_uri: blob/main/docs/
 plugins:
   - search
-  #- sitemap
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+  - print-site:
+      add_to_navigation: true
+      print_page_title: "Print this guide"
 extra:
   social:
     - icon: fontawesome/brands/x-twitter
@@ -34,6 +39,8 @@ theme:
     - navigation.top
     - search.highlight
     - content.code.copy
+    - content.action.edit
+    - content.action.view
     - toc.integrate
 extra_css:
   - styles/afro.css

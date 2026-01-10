@@ -56,6 +56,9 @@ Community-submitted updates + periodic reviews keep this page fresh.
 General information only; program details change by county. Confirm with official agencies.
 
 ---
+!!! tip "See something to update?"
+    Suggest an edit → **[Open a quick issue](https://github.com/kayanhales/the-blk-nest-guides/issues/new?title=Fix:%20&labels=content)**.
+
 
 <!-- JSON-LD -->
 <script type="application/ld+json">

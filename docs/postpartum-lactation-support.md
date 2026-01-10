@@ -64,6 +64,9 @@ It’s normal to feel overwhelmed. Seek help for persistent sadness, anxiety, pa
 - [Funding & Benefits for Black Families in Michigan](./funding-benefits-michigan.md)
 
 ---
+!!! tip "See something to update?"
+    Suggest an edit → **[Open a quick issue](https://github.com/kayanhales/the-blk-nest-guides/issues/new?title=Fix:%20&labels=content)**.
+
 
 <!-- JSON-LD -->
 <script type="application/ld+json">
