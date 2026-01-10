@@ -1,4 +1,4 @@
-site_name: The BLK Nest Guides
+site_name: The BLK Nest
 site_url: https://guides.theblknest.org
 repo_url: https://github.com/kayanhales/the-blk-nest-guides
 edit_uri: blob/main/docs/
@@ -46,11 +46,19 @@ extra_css:
   - styles/afro.css
 
 nav:
-  - Start Here: index.md
-  - Caregiver Guides:
-      - How to Choose a Black Doula: choosing-a-doula.md
-      - Postpartum & Lactation Support (Metro Detroit): postpartum-lactation-support.md
-      - Funding & Benefits in Michigan: funding-benefits-michigan.md
+  - Start Here: start-here/index.md
+  - Pregnancy: pregnancy/index.md
+  - Birth & Postpartum: birth-postpartum-reality/index.md
+  - Support & Community:
+      - Community Spaces: support-community/community-spaces.md
+      - How to Ask for Help: support-community/how-to-ask-for-help.md
+  - Care & Healing:
+      - Pelvic Floor Therapist: care-healing/pelvic-floor-therapy.md
+      - Lactation Support: care-healing/lactation-support.md
+      - Therapy and Mental Health: care-healing/therapy-and-mental-health.md
+      - Body Care and Healing: body-care-and-healing.md
+  - Resources & Services: resources-services/index.md
+  - Beyond the Newborn Stage: parenting-beyond-newborn/index.md
 
 markdown_extensions:
   - admonition
