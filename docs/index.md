@@ -24,6 +24,8 @@ Your feedback makes these guides better for the next caregiver, thank you for be
 ### Not sure where to start?
 
 - [Start Here](./start-here/index.md)  
+- Or use the SEARCH above. 
+  - If searching for multiple words, wrap your search in quotes. For example: "Lactation Support".
 
 
 ---

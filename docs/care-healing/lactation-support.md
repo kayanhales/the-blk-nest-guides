@@ -49,3 +49,6 @@ Search tips:
 - Some insurance plans cover lactation support
 - Many hospitals offer initial visits
 - Community organizations may offer free or low-cost help
+
+!!! tip "See something to update?"
+    Suggest an edit → **[Open a quick issue](https://github.com/kayanhales/the-blk-nest-guides/issues/new?title=Fix:%20&labels=content)**.

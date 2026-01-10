@@ -25,6 +25,7 @@ They are especially important during pregnancy and postpartum, when support ofte
 Focus: Postpartum support
 
 Fourth Tri centers the often-overlooked postpartum period and provides:
+
 - Postpartum education
 - Support spaces
 - Community connection
@@ -69,6 +70,7 @@ Website: [Natures PlayHouse](http://naturesplayhouse.com)
 You don’t need to try everything.
 
 Pick:
+
 - One space
 - One session
 - One event

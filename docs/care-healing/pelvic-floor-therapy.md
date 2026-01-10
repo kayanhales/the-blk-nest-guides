@@ -61,3 +61,6 @@ Founded by Dr. Kamaria Washington, Pelvic Noire centers pelvic health care for B
 - Some providers require a referral; some do not
 - Call your insurance and ask about “pelvic floor physical therapy”
 - Ask your OB or midwife directly for a referral if needed
+
+!!! tip "See something to update?"
+    Suggest an edit → **[Open a quick issue](https://github.com/kayanhales/the-blk-nest-guides/issues/new?title=Fix:%20&labels=content)**.
